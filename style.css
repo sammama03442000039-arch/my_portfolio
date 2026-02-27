@@ -418,4 +418,52 @@ filter: invert(75%) sepia(50%) saturate(1000%) hue-rotate(350deg) brightness(110
 }
 * {
   transition: all 0.2s ease-in-out;
+
+
+}
+.btn-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    
+}
+.role {
+    display: flex;
+    width: 100px;
+  flex-direction: column;   /* stack vertically */
+  align-items: center;      /* center horizontally */
+  margin-top: 15px;
+    
+  padding: 8px 6px;
+  background:black;
+  color: white;
+  font-size: 10px;
+  font-weight: 500;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: grey;
+}
+
+/* Hover effect */
+.role:hover {
+  transform: translateY(-3px);
+  background-color:grey;
+}
+
+/* Click effect */
+.role:active {
+  transform: scale(0.97);
+}
+.footer {
+  text-align: center;
+  padding: 12px 0;
+  font-size: 13px;
+  color: #999;
+  border-top: 1px solid #333;
+  margin-top: 30px;
+}
+.footer {
+  background: #1e1e1e;
 }
