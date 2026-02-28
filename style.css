@@ -467,3 +467,6 @@ filter: invert(75%) sepia(50%) saturate(1000%) hue-rotate(350deg) brightness(110
 .footer {
   background: #1e1e1e;
 }
+.btn-box a {
+  text-decoration: none;
+}
